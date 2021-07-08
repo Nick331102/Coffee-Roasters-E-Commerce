@@ -111,6 +111,7 @@ main {
 .hero__button:hover {
     background-color: var(--main-button-hover);
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 /* Collection Section */
@@ -381,7 +382,8 @@ main {
 
 
 .works__plan--button:hover {
-    background-color: var(--main-button-hover)
+    background-color: var(--main-button-hover);
+    cursor: pointer;
 }
 
 
@@ -428,6 +430,7 @@ main {
 .footer__icons--container i:hover {
     color: white;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -889,6 +892,7 @@ li {
 
 .checkout__button:hover {
     background-color: var(--main-button-hover);
+    cursor: pointer;
 
 }
 
@@ -968,6 +972,12 @@ li {
     font-weight: 600;
     border-radius: 8px;
     margin-top: 30px;
+
+}
+
+#subscribe__button:hover {
+    cursor: pointer;
+    background: var(--main-button-hover);
 }
 
 
