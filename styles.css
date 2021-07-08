@@ -667,7 +667,7 @@ li {
 .subscribe {
     width: 90%;
     margin: 120px auto;
-    background-image: url('/images/plan/desktop/bg-steps.png');
+    background-image: url('images/plan/desktop/bg-steps.png');
     padding: 30px;
 
 }
@@ -1010,7 +1010,8 @@ li {
         align-items: center;
         width: 100vw;
         position: absolute;
-        background-color: var(--main-button-default);
+        background: rgb(14, 135, 132);
+        background: linear-gradient(185deg, rgba(14, 135, 132, 1) 0%, rgba(163, 179, 191, 1) 100%);
         top: 60px;
         left: -110%;
         opacity: 0;
@@ -1032,7 +1033,7 @@ li {
     }
 
     .active {
-        left: -40px;
+        left: -50px;
         opacity: 1;
 
     }
